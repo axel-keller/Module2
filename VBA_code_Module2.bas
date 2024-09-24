@@ -43,8 +43,9 @@ Sub Module2()
     
     tsv = 0
     tablerow = 2
+'Used Learning Assistant to get code for finding the last row within the dataset
     lastRow = Cells.Find("*", SearchOrder:=xlByRows, SearchDirection:=xlPrevious).Row
-    
+'Used Learning Assistant to set the following variables 
     maxpercentchange = -999999
     minpercentchange = 999999
     maxVolume = -999999
